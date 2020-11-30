@@ -1,0 +1,119 @@
+@import "../variables/variables.scss";
+
+.footer {
+    margin-top: 50px;
+    height: 160px;
+    width: 100%;
+    background-color: $main-text-color;
+
+    @media screen and (max-width: 1023px) {
+        margin: 0;
+        height: 200px;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin: 0;
+        height: 350px;
+    }
+
+    .container {
+        margin: 0 180px;
+
+        @media screen and (max-width: 1023px) {
+            margin: 0 35px;
+        }
+    
+        @media screen and (max-width: 767px) {
+            margin: 0 20px;
+        }
+    }
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: $second-text-color;
+
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+
+        .logo-content {
+            display: flex;
+
+            img {
+                height: 25px;
+            }
+        }
+
+        .menu-content {
+            display: flex;
+            margin-left: 50px;
+
+            @media screen and (max-width: 767px) {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            ul {
+                list-style-type: none;
+    
+                li {
+                    padding-bottom: 10px;
+                    font-size: 10px;
+                    
+                }
+    
+                li:hover {
+                    color: $main-color;
+                    list-style-type: initial;
+                }
+            }
+        }
+
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 170px;
+        width: 400px;
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        .info-group {
+        
+            h5 {
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 10px;
+
+                @media screen and (max-width: 767px) {
+                    margin: 10px 0;
+                }
+            }
+    
+            p {
+                font-size: 10px;
+                line-height: 25px;
+
+                @media screen and (max-width: 767px) {
+                    line-height: 15px;
+                }
+            }
+
+            .follow-icons {
+                display: flex;
+                margin-top: 5px;
+                img {
+                    width: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

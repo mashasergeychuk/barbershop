@@ -1,0 +1,71 @@
+@import "../variables/variables.scss";
+
+.banner-section {
+    background: url(../img/background.png) left/cover;
+    height: 480px;
+    max-width: 100%;
+
+    @media screen and (max-width: 1023px) {
+        height: 350px;
+    }
+
+    @media screen and (max-width: 767px) {
+        height: 500px;
+        background: url(../img/background.png) top/cover;
+    }
+
+    .container {
+        margin: 0 180px;
+
+        @media screen and (max-width: 1023px) {
+            margin: 0 35px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin: 0 20px;
+        }
+    }
+}
+
+.banner-content {
+    padding: 100px 0 150px 0;
+
+    img {
+        height: 100px;
+
+        @media screen and (max-width: 1023px) {
+            height: 90px;
+        }
+    
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            height: 100px;
+            margin-top: 130px;
+        }
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        color: $second-text-color;
+        width: 300px;
+        margin: 35px 0 20px 0;
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
+        }
+        
+    }
+
+    .button {
+        width: 90px;
+        @include header-button;
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    .button:hover {
+        @include active-button;
+    }
+}

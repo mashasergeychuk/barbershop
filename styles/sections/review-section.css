@@ -1,0 +1,114 @@
+.review-section {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner-book.png) top/cover no-repeat; }
+  .review-section .container {
+    margin: 0 180px; }
+    @media screen and (max-width: 1023px) {
+      .review-section .container {
+        margin: 0 35px; } }
+    @media screen and (max-width: 767px) {
+      .review-section .container {
+        margin: 0 20px; } }
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0 50px 0; }
+  .review-content .review-heading {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 1023px) {
+      .review-content .review-heading {
+        justify-content: flex-end; } }
+    .review-content .review-heading .round {
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+      background-color: #FF7A00;
+      margin-right: 12px; }
+      @media screen and (max-width: 1023px) {
+        .review-content .review-heading .round {
+          height: 7px;
+          width: 7px;
+          border-radius: 100%;
+          background-color: #FF7A00;
+          margin: 0 8px 0 35px; } }
+      @media screen and (max-width: 767px) {
+        .review-content .review-heading .round {
+          height: 7px;
+          width: 7px;
+          border-radius: 100%;
+          background-color: #FF7A00;
+          margin: 0 8px 0 0; } }
+    .review-content .review-heading p {
+      font-size: 36px;
+      color: #FF7A00;
+      font-weight: bold; }
+      @media screen and (max-width: 1023px) {
+        .review-content .review-heading p {
+          font-size: 24px;
+          color: #FF7A00;
+          font-weight: bold; } }
+      @media screen and (max-width: 767px) {
+        .review-content .review-heading p {
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #FF7A00;
+          font-weight: bold; } }
+  .review-content .team-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px; }
+    @media screen and (max-width: 767px) {
+      .review-content .team-photos {
+        margin-top: 30px; } }
+    .review-content .team-photos img {
+      height: 120px;
+      margin-right: 5px; }
+      @media screen and (max-width: 1023px) {
+        .review-content .team-photos img {
+          height: 150px; } }
+      @media screen and (max-width: 767px) {
+        .review-content .team-photos img {
+          height: 0; } }
+    .review-content .team-photos .active-photo {
+      height: 220px; }
+      @media screen and (max-width: 1023px) {
+        .review-content .team-photos .active-photo {
+          height: 250px; } }
+      @media screen and (max-width: 767px) {
+        .review-content .team-photos .active-photo {
+          height: 300px; } }
+    .review-content .team-photos .arrow-img {
+      height: 15px;
+      margin: 100px 10px 0 10px; }
+      @media screen and (max-width: 767px) {
+        .review-content .team-photos .arrow-img {
+          margin-top: 270px; } }
+    .review-content .team-photos .arrow-img:hover {
+      transform: scale(1.5); }
+    @media screen and (max-width: 767px) {
+      .review-content .team-photos .left-arrow {
+        height: 0; } }
+  .review-content .team-biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; }
+    .review-content .team-biography p {
+      color: #FF7A00;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .review-content .team-biography ul {
+      color: #FFF1E3;
+      width: 400px;
+      font-size: 10px; }
+      @media screen and (max-width: 767px) {
+        .review-content .team-biography ul {
+          width: 100%; } }
+      .review-content .team-biography ul li {
+        list-style-type: none; }
+
+/*# sourceMappingURL=review-section.css.map */

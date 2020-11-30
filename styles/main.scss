@@ -1,0 +1,28 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+@import "./sections/header.scss";
+@import "./sections/banner-section.scss";
+@import "./sections/services-section.scss";
+@import "./sections/team-section.scss";
+@import "./sections/book-section.scss";
+@import "./sections/products-section.scss";
+@import "./sections/review-section.scss";
+@import "./sections/contacts-section.scss";
+@import "./sections/footer.scss";

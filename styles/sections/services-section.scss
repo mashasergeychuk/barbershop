@@ -1,0 +1,140 @@
+@import "../variables/variables.scss";
+
+.services-section {
+    background: url(../img/banner-services.png) no-repeat;
+    background-size: 700px 650px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (max-width: 1023px) {
+        background: none;
+        margin-top: 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        background: none;
+    }
+
+    .services-container {
+        background-color: #000;
+        width: 100%;
+        opacity: 0.8;
+        margin: 20px 0 80px 0;
+    }
+}
+
+.services-heading {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+    .round {
+        @include round-l;
+
+        @media screen and (max-width: 1023px) {
+            @include round-s;
+        }
+
+        @media screen and (max-width: 767px) {
+            @include round-xs;
+        }
+    }
+
+    p {
+        @include products-heading-l;
+
+        @media screen and (max-width: 1023px) {
+            @include products-heading-s;
+            margin: 0;
+        }
+
+        @media screen and (max-width: 767px) {
+            @include products-heading-xs;
+        }
+    }
+}
+
+.services-content {
+    .container {
+            margin: 0 180px;
+    
+            @media screen and (max-width: 1023px) {
+                margin: 0 35px;
+            }
+    
+            @media screen and (max-width: 767px) {
+                margin: 0 20px;
+            }
+    }
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 20px 0;
+
+    @media screen and (max-width: 1023px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-item {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width: 1023px) {
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+        }
+
+        .item {
+            display: flex;
+            padding-bottom: 30px;
+
+            @media screen and (max-width: 1023px) {
+                margin: 0 50px;
+            }
+
+
+            .img-service {
+                display: flex;
+                align-items: center;
+                
+                img {
+                    width: 35px;
+                    height: 40px;
+                }
+            }
+            
+            .item-name {
+                font-family: 'Montserrat', sans-serif;
+                color: #FFF1E3;
+                margin-left: 10px;
+
+                h4 {
+                    font-size: 18px;
+                }
+
+                span {
+                    font-size: 8px;
+                }
+
+                p {
+                    font-size: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

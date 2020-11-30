@@ -1,0 +1,120 @@
+.team-section .container {
+  margin: 0 180px; }
+  @media screen and (max-width: 1023px) {
+    .team-section .container {
+      margin: 0 35px; } }
+  @media screen and (max-width: 767px) {
+    .team-section .container {
+      margin: 0 20px; } }
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0; }
+  @media screen and (max-width: 1023px) {
+    .team-content {
+      margin: 0; } }
+  .team-content .team-content-biography {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    @media screen and (max-width: 1023px) {
+      .team-content .team-content-biography {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    @media screen and (max-width: 767px) {
+      .team-content .team-content-biography {
+        flex-direction: column; } }
+    .team-content .team-content-biography .team-photos {
+      display: flex;
+      align-items: flex-end; }
+      .team-content .team-content-biography .team-photos img {
+        height: 150px;
+        margin-right: 5px; }
+        @media screen and (max-width: 1023px) {
+          .team-content .team-content-biography .team-photos img {
+            height: 200px; } }
+        @media screen and (max-width: 767px) {
+          .team-content .team-content-biography .team-photos img {
+            height: 0; } }
+      .team-content .team-content-biography .team-photos .active-photo {
+        height: 250px; }
+        @media screen and (max-width: 1023px) {
+          .team-content .team-content-biography .team-photos .active-photo {
+            height: 300px; } }
+        @media screen and (max-width: 767px) {
+          .team-content .team-content-biography .team-photos .active-photo {
+            height: 300px; } }
+      .team-content .team-content-biography .team-photos .arrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        background-color: #FFF2E5; }
+        @media screen and (max-width: 1023px) {
+          .team-content .team-content-biography .team-photos .arrow-container {
+            margin-left: 15px; } }
+        .team-content .team-content-biography .team-photos .arrow-container img {
+          height: 15px; }
+      .team-content .team-content-biography .team-photos .arrow-container:hover {
+        transform: scale(1.2); }
+  .team-content .biography-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 40px; }
+    .team-content .biography-heading .round {
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+      background-color: #FF7A00;
+      margin-right: 12px; }
+      @media screen and (max-width: 1023px) {
+        .team-content .biography-heading .round {
+          height: 7px;
+          width: 7px;
+          border-radius: 100%;
+          background-color: #FF7A00;
+          margin: 0 8px 0 35px; } }
+      @media screen and (max-width: 767px) {
+        .team-content .biography-heading .round {
+          height: 7px;
+          width: 7px;
+          border-radius: 100%;
+          background-color: #FF7A00;
+          margin: 0 8px 0 0; } }
+    .team-content .biography-heading p {
+      font-size: 36px;
+      color: #FF7A00;
+      font-weight: bold; }
+      @media screen and (max-width: 1023px) {
+        .team-content .biography-heading p {
+          font-size: 24px;
+          color: #FF7A00;
+          font-weight: bold;
+          margin: 0; } }
+      @media screen and (max-width: 767px) {
+        .team-content .biography-heading p {
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #FF7A00;
+          font-weight: bold; } }
+  .team-content .team-biography {
+    margin-left: 25px; }
+    @media screen and (max-width: 1023px) {
+      .team-content .team-biography {
+        margin: 20px; } }
+    .team-content .team-biography p {
+      color: #FF7A00;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .team-content .team-biography ul {
+      width: 300px;
+      font-size: 12px; }
+      .team-content .team-biography ul li {
+        list-style-type: none; }
+
+/*# sourceMappingURL=team-section.css.map */

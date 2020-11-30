@@ -1,0 +1,125 @@
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #222222;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.32); }
+  @media screen and (max-width: 767px) {
+    header {
+      height: 60px; } }
+  header .container {
+    margin: 0 180px; }
+    @media screen and (max-width: 1023px) {
+      header .container {
+        margin: 0 35px; } }
+    @media screen and (max-width: 767px) {
+      header .container {
+        margin: 0 20px; } }
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 50px; }
+  @media screen and (max-width: 1023px) {
+    .header-content {
+      line-height: 45px; } }
+  @media screen and (max-width: 767px) {
+    .header-content {
+      line-height: 55px; } }
+  .header-content .hamburger {
+    display: none; }
+    @media screen and (max-width: 1023px) {
+      .header-content .hamburger {
+        display: flex;
+        flex-direction: column; } }
+    @media screen and (max-width: 767px) {
+      .header-content .hamburger {
+        display: flex;
+        flex-direction: column; } }
+    @media screen and (max-width: 1023px) {
+      .header-content .hamburger .hamburger-item {
+        display: flex;
+        flex-direction: column;
+        height: 3px;
+        width: 30px;
+        border-radius: 2px;
+        background-color: #D8D8D8;
+        margin-top: 5px; } }
+    @media screen and (max-width: 767px) {
+      .header-content .hamburger .hamburger-item {
+        display: flex;
+        flex-direction: column;
+        height: 3px;
+        width: 30px;
+        border-radius: 2px;
+        background-color: #D8D8D8;
+        margin-top: 5px; } }
+  .header-content .logo-content {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 1023px) {
+      .header-content .logo-content {
+        display: none; } }
+    @media screen and (max-width: 767px) {
+      .header-content .logo-content {
+        display: none; } }
+    .header-content .logo-content img {
+      height: 25px; }
+  .header-content .menu-content {
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 1023px) {
+      .header-content .menu-content {
+        display: none; } }
+    @media screen and (max-width: 767px) {
+      .header-content .menu-content {
+        display: none; } }
+    .header-content .menu-content ul {
+      display: flex;
+      list-style-type: none;
+      color: #fff; }
+      .header-content .menu-content ul li {
+        margin-right: 22px;
+        font-size: 12px;
+        font-weight: bold; }
+      .header-content .menu-content ul li:hover {
+        color: #FF7A00;
+        list-style-type: initial; }
+  .header-content .active-content {
+    display: flex;
+    align-items: center; }
+    .header-content .active-content .basket-container {
+      color: #fff;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      margin-right: 15px; }
+      .header-content .active-content .basket-container img {
+        height: 22px; }
+    .header-content .active-content .buttons-container {
+      display: flex;
+      align-items: center; }
+      @media screen and (max-width: 1023px) {
+        .header-content .active-content .buttons-container {
+          display: none; } }
+      @media screen and (max-width: 767px) {
+        .header-content .active-content .buttons-container {
+          display: none; } }
+      .header-content .active-content .buttons-container .button {
+        width: 90px;
+        padding: 4px 12px;
+        border-radius: 4px;
+        border: 0.5px solid #fff2e5;
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-size: 9px; }
+      .header-content .active-content .buttons-container .button:hover {
+        background-color: #FF7A00;
+        border: none; }
+      .header-content .active-content .buttons-container .contact-button {
+        margin-right: 5px; }
+
+/*# sourceMappingURL=header.css.map */

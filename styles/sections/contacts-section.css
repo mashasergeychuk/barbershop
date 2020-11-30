@@ -1,0 +1,60 @@
+.contacts-section .container {
+  margin: 0 180px; }
+  @media screen and (max-width: 1023px) {
+    .contacts-section .container {
+      margin: 0 35px; } }
+  @media screen and (max-width: 767px) {
+    .contacts-section .container {
+      margin: 0 20px; } }
+  .contacts-section .container .contacts-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0; }
+    @media screen and (max-width: 1023px) {
+      .contacts-section .container .contacts-content {
+        flex-direction: column;
+        margin: 20px 0; } }
+    .contacts-section .container .contacts-content .map-img {
+      width: 600px;
+      margin-left: 50px; }
+      @media screen and (max-width: 767px) {
+        .contacts-section .container .contacts-content .map-img {
+          width: 100%;
+          margin: 0; } }
+    @media screen and (max-width: 1023px) {
+      .contacts-section .container .contacts-content .info {
+        display: flex;
+        justify-content: space-around; } }
+    @media screen and (max-width: 767px) {
+      .contacts-section .container .contacts-content .info {
+        flex-direction: column; } }
+    .contacts-section .container .contacts-content .info-group h2 {
+      color: #FF7A00;
+      font-size: 32px;
+      margin-bottom: 15px; }
+      @media screen and (max-width: 767px) {
+        .contacts-section .container .contacts-content .info-group h2 {
+          font-size: 16px; } }
+    .contacts-section .container .contacts-content .info-group p {
+      color: #222222;
+      font-size: 10px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      margin-right: 30px;
+      font-weight: bold; }
+    .contacts-section .container .contacts-content .info-group .follow-icons {
+      display: flex;
+      align-items: center; }
+      .contacts-section .container .contacts-content .info-group .follow-icons img {
+        margin-bottom: 10px;
+        margin-right: 5px; }
+    .contacts-section .container .contacts-content .info-group .desc {
+      text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .contacts-section .container .contacts-content .info-group .desc {
+          text-transform: none; } }
+    .contacts-section .container .contacts-content .info-group .timing {
+      display: flex;
+      align-items: center; }
+
+/*# sourceMappingURL=contacts-section.css.map */
